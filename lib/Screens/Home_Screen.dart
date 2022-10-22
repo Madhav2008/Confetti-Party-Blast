@@ -25,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
           appBar: AppBar(),
           body: Center(
             child: MaterialButton(
-              onPressed: () {},child: ,
+              onPressed: () {},child: Text(),
             ),
           ),
         ),
