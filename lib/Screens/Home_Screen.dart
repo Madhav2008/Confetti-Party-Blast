@@ -27,7 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: MaterialButton(
               onPressed: () {},
               child: Text('Party Time'),
-              color: Colors.deepPurple,
+              color: Colors.deepPurple[300],
             ),
           ),
         ),
