@@ -9,7 +9,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  final _controller = ConfettiController();
+  final _controller = ConfettiController();bool
 
   @override
   void dispose() {
