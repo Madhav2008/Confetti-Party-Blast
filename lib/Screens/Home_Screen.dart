@@ -24,7 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
         Scaffold(
           appBar: AppBar(),
           body: Center(
-            child: MaterialButton(),
+            child: MaterialButton(onPressed: () {  },),
           ),
         ),
         ConfettiWidget(
