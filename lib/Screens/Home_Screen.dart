@@ -12,7 +12,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final _controller = ConfettiController();
 
   @override
-  void dispose()
+  void dispose(){}
 
   @override
   Widget build(BuildContext context) {
