@@ -11,7 +11,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Stack(
-      children: [Scaffold()],
+      children: [Scaffold(),],
     );
   }
 }
