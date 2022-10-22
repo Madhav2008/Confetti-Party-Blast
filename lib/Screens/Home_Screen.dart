@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
           appBar: AppBar(),
           body: Center(
             child: MaterialButton(
-              onPressed: () {isPlaying},
+              onPressed: () {isPlaying=},
               child: Text('Party Time'),
               color: Colors.deepPurple[200],
             ),
