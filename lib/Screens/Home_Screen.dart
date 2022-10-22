@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Stack(
       children: [
         Scaffold(
-          appBar: AppBar(),
+          appBar: AppBar(),body: ,
         ),
         ConfettiWidget(
           confettiController: _controller,
