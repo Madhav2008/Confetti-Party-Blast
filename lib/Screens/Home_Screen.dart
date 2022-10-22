@@ -8,7 +8,7 @@ class HomeScreen extends StatefulWidget {
   State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {final
+class _HomeScreenState extends State<HomeScreen> {final controller
   @override
   Widget build(BuildContext context) {
     return Stack(
