@@ -10,7 +10,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   final _controller = ConfettiController();
-  
+
   @override
   Widget build(BuildContext context) {
     return Stack(
@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
         Scaffold(
           appBar: AppBar(),
         ),
-        ConfettiWidget(confettiController: confettiController),
+        ConfettiWidget(confettiController: _controller),
       ],
     );
   }
