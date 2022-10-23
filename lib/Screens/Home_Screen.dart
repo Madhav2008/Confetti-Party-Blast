@@ -47,7 +47,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         ConfettiWidget(
           confettiController: _controller,
-          blastDirection: pi / 2,
+          blastDirection: -pi / 2,
         ),
       ],
     );
