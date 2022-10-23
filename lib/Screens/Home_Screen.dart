@@ -28,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
           appBar: AppBar(
             title: Text(
               'CONFETTI',
-              style: TextStyle(),
+              style: TextStyle(letterSpacing: ),
             ),
             centerTitle: true,
           ),
