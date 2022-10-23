@@ -27,7 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
           body: Center(
             child: MaterialButton(
               onPressed: () {
-                if(){}
+                if(isPlaying){}
                 isPlaying = !isPlaying;
               },
               child: Text('Party Time'),
