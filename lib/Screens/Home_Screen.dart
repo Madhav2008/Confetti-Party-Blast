@@ -24,7 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
       alignment: Alignment.center,
       children: [
         Scaffold(
-          appBar: AppBar(title: 'CONFETTI',),
+          appBar: AppBar(title: Text(),),
           body: Center(
             child: MaterialButton(
               onPressed: () {
