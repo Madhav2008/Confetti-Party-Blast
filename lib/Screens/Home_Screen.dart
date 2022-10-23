@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
       children: [
         Scaffold(
           appBar: AppBar(
-            title: Text('CONFETTI'),
+            title: Text('CONFETTI',style: ,),
             centerTitle: true,
           ),
           body: Center(
