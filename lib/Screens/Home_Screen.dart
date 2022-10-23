@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
               onPressed: () {
                 if (isPlaying) {
                   _controller.stop();
-                } else {}
+                } else {_controller.stop();}
                 isPlaying = !isPlaying;
               },
               child: Text('Party Time'),
