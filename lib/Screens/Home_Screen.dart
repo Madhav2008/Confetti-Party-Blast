@@ -53,7 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
             Colors.yellow,
           ],
           gravity: 0.01,
-          emissionFrequency: 1,
+          emissionFrequency: 0.5,
         ),
       ],
     );
