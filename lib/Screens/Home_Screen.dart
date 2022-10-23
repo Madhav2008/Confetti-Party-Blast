@@ -52,7 +52,8 @@ class _HomeScreenState extends State<HomeScreen> {
             Colors.deepPurple,
             Colors.yellow,
           ],
-          gravity: 0.01,emissionFrequency: 1,
+          gravity: 0.01,
+          emissionFrequency: 1,
         ),
       ],
     );
