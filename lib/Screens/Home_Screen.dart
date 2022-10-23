@@ -50,6 +50,7 @@ class _HomeScreenState extends State<HomeScreen> {
           blastDirection: pi / 2,
           colors: [
             Colors.deepPurple,
+            Colors.deepPurple,
           ],
         ),
       ],
