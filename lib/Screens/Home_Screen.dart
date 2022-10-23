@@ -45,7 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 isPlaying = !isPlaying;
               },
               color: Colors.deepPurple[200],
-              child: Text('Party Time'),
+              child: const Text('Party Time'),
             ),
           ),
         ),
