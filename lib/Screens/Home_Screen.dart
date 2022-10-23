@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
+    return Stack(alignment: ,
       children: [
         Scaffold(
           appBar: AppBar(),
