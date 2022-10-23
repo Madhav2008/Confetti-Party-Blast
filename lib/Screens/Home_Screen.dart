@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
             title: const Text(
               'CONFETTI',
               style: TextStyle(
-                letterSpacing: 1,
+                letterSpacing: 2,
               ),
             ),
             centerTitle: true,
