@@ -30,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 if (isPlaying) {
                   _controller.stop();
                 } else {
-                  _controller.stop();
+                  _controller.play();
                 }
                 isPlaying = !isPlaying;
               },
